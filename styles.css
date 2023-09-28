@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #0D1A2D;
+    font-family: sans-serif;
+}
+
+/* card background color: #15273F */
+/* write ups color: #556E97 */
+/* eth color: #3EE0E3 */
+/* created: #617897 */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.eth{
+    display: flex;
+    align-items: center;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
